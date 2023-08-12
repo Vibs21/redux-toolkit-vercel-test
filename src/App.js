@@ -13,7 +13,7 @@ function App() {
     console.log('count', count);
     // const item = { id: 1, name: 'Product', price: 10 };
     // dispatch(addProduct(item));
-    dispatch(addProduct({id:count, 'name': 'Vaibhav', 'desc': 'some'}))
+    dispatch(addProduct({id:count, 'name': 'Some Name', 'desc': 'some'}))
   }
 
   return (
